@@ -1,0 +1,24 @@
+ Nginx Commands
+
+   23  sudo apt install nginx
+   24  cd /etc/nginx/sites-available/
+   25  ls
+   26  cat default 
+   27  cd
+   28  ls
+   29  cd d
+   30  cd 
+   31  cd Django-WebApp/
+   32  ls
+   33  cd django_web_app/
+   34  ls
+   35  vi settings.py 
+   36  cd ..
+   37  cd /etc/nginx/sites-enabled/
+   38  ls
+   39  sudo nano nginx.conf
+   40  sudo service nginx restart
+   41  sudo service nginx status
+   42  cd
+   43  cd Django-WebApp/
+   44  python3 manage.py runserver 0.0.0.0:8000
